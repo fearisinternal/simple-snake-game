@@ -10,7 +10,7 @@ void SnakeMap::drawMap()
     {
         for (auto j = 0; j < MAP_WIDTH; j++)
         {
-            std::cout << gameMap[i][j] << " ";
+            std::cout << " " << gameMap[i][j];
         }
         std::cout << std::endl;
     }
